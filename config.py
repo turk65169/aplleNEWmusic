@@ -19,7 +19,7 @@ class Config:
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 50))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", "BQHRz9EAo9IiRFTT5hICPm0zQojVgOA4JVp9m9B39Em482nROJg66QN9KBOg5pu8NqFJkwfD1uh1Eq96PeFzIVIgP9zT6DHEwC_O3VIiU9JwzshlV1B0Gi7BZF_Ydiouq9OmtJOGZBWtasaKZGOp3M4GO6XTkAUdEGTuegjPdedp7sO2-WwiEF_f5qKu-YtHh8W8npFPRhZEN2YfdDHtjI5pA_51bn-NIJ7noMiSUiBL1Du9J_CAXFisuHJXabKacwhDgol3pPM4I8h-LFo1rYQ0HzYVyRhvu8bB2Uo3FsTyBCrW_-LdYqyNyaCA-MB6oOKXMwa-TtuqogbvZ796fypgF20RVwAAAAG3WPv4AA")
+        self.SESSION1 = getenv("SESSION", "BQHRz9EAsr3pHZ1HxGbE1wwP5iTRbHdosM2rBTYa_oQ38KNwPCRCaO8d0oEpmhgcjegMFPcoLOgxkYnp_BWUbWPZXn85MXBxILBQ9mEMnH3fyY6gUrZq-TxJPdUJcDBnh382hneYKVXvQjQShfi2zKhQUkNej-eYQfItMMmT2nCFCGcpbiLiOLvXR4ZFiVElak2_ib28NfkFdZHBHKCIjYunR55BbMBP4raXD0Q27iUhleMiiUW8WG9JyosjA82wYlIiDH5EisX9d3Mgsn1tM_H5rO268ACcNHSH3dPmhDtHPkFy8hUEJGUxU-6IFG2vYgLJgt6sDFZorgJMi0SVcHx0mgZhGQAAAAG3WPv4AA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
@@ -36,7 +36,7 @@ class Config:
         self.AUTO_LEAVE: bool = parse_bool("AUTO_LEAVE", False)
         self.VIDEO_PLAY: bool = parse_bool("VIDEO_PLAY", True)
         self.COOKIES_URL = [
-            url for url in getenv("COOKIES_URL", "https://batbin.me/valonia").split(" ")
+            url for url in getenv("COOKIES_URL", "https://batbin.me/skinneries").split(" ")
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://te.legra.ph/file/3e40a408286d4eda24191.jpg")
