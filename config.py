@@ -6,8 +6,8 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", "37135636"))
-        self.API_HASH = getenv("API_HASH", "998d7eaaecd78154386a7e08d9f76ec4")
+        self.API_ID = int(getenv("API_ID", "21663313"))
+        self.API_HASH = getenv("API_HASH", "2182ad43bc092183158233736140491d")
 
         self.BOT_TOKEN = getenv("BOT_TOKEN", "8284340154:AAH07G9K1e6Lb3LbmTYm9kZj51KlYqVwses")
         self.MONGO_URL = getenv("MONGO_URL", "mongodb+srv://mongoguess:guessmongo@cluster0.zcwklzz.mongodb.net/?retryWrites=true&w=majority")
@@ -19,7 +19,7 @@ class Config:
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 50))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", "AQI2pRQALhNlsnkoxjtxwxv8155U1ZfysWsuVfBretuwOwr8rbQ0qbtSgFDXmHA7ZXt6Ccf-0vV7d1O8k1ZGGztTzQ0Fcc4bRxX48H9_rCExNHRx8C1z3icuKhNUt2w-pa_qjb-QAQUTQt3yYH39pTYWAOQfHgegBC6jZgCP4g0YathLHvDslsZ7hE6TbLyzeUXHANgtCSxCH71n7pkWm0ytW8x_kBUFC96fVDmJq-mzCi9i1nOpdJJmMlfLwymsZmQqBASk8vEnL9L7TOMi45oyT798og9_d5apjHYpjJJEF6JHPnKFCIygK1XAPHso9atqmNIIwvHXwcGxBL0RtxsJbk5XMwAAAAIDUhhFAA")
+        self.SESSION1 = getenv("SESSION", "AQFKjlEAOB9dHrSgm1cz8TJWJpeksqYqjT70RghuTc_gyadtNiO3FhXQ7s9VFVKdUFpmHRDVjEGjMy9xoYayy-dLyB2B64S-zdLHHX9y39q8rSLv4lymGiVpO9nOKMqCwqk6GMeEseNG4QLT_rEehaEAvQSwhxrdff2zlY7zozlagbbRcUfETtCx_alwcVT0Ngyy0ucojtxW6OohcXHtliRItYT8BSqogdZvbXgb_Hw_AUh8QA-WNuwm6EkXree53Rmpq2qiuY8hAMkhu8SW0gVaBLEI-O5k_2yyKWVYqrmwfPFglHq6n8dnVgq_fBSJ4KPqE_neSjKvrvaDcJZxRdjzIBdITAAAAAIL2VKOAA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
